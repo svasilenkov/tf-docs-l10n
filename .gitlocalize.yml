@@ -1,0 +1,10 @@
+synchronize:
+  paths:
+  - source: .
+    exclude:
+    - "site/en/api_docs/*"
+    - "site/en/install/*"
+    - "site/en/r1/*"
+    - "**/index.*"
+    - "**/README.*"
+    - "**/*.yaml"
